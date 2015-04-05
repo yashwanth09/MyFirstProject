@@ -18,7 +18,6 @@ $("a[name=tab]").on("click", function () {
     }
     if(a==2)
     {
- //       alert("Msnarayana")
         doGET("sapthagiri","c")
     }
     if(a==3)
