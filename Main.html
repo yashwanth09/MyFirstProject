@@ -47,7 +47,7 @@ xmlhttp.onreadystatechange=function() //This part is actually executed last
 }
 //xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/videos?id=7lCDEYXw3mM&key=AIzaSyDAqXW4B2w6DuwlvWrXHpotZ3yU6wLC73g&part=snippet,contentDetails,statistics,status",true);
 
-xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/search?part=snippet&q="+value+"+comedy+scenes&type=video&videoCaption=closedCaption&key=AIzaSyDAqXW4B2w6DuwlvWrXHpotZ3yU6wLC73g",true);
+xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/search?part=snippet&q="+value+"comedy scenes&type=video&videoCaption=closedCaption&key=AIzaSyDAqXW4B2w6DuwlvWrXHpotZ3yU6wLC73g",true);
 xmlhttp.send();
 }
 function parsingJson(jsonString,id)
@@ -58,8 +58,8 @@ function parsingJson(jsonString,id)
 		//document.write(jsonString)
 		//document.write(jsonString.items.length);
 		//document.write(jsonString.items[i].id.videoId);
-	    yash="#"+id
-		$(yash).append("<iframe src=http://www.youtube.com/embed/"+jsonString.items[i].id.videoId+"></iframe><br>")
+	    divaname="#"+id
+		$(divname).append("<iframe src=http://www.youtube.com/embed/"+jsonString.items[i].id.videoId+"></iframe><br>")
 	}
 }
 </script>
