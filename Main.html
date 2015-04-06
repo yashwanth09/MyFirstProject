@@ -31,6 +31,14 @@
         if(a==3)
         {
             doGET("sunil","tabs-4")
+        }
+        if(a==4)
+        {
+            doGET("MSnarayana","tabs-5")
+        }
+        if(a==5)
+        {
+            doGET("Dharmavarpu subramanyam","tabs-6")
         } 
     });
   });
@@ -66,8 +74,8 @@
   		//document.write(jsonString)
   		//document.write(jsonString.items.length);
   		//document.write(jsonString.items[i].id.videoId);
-  	    divname="#"+id
-  	    $(divname).append("<p>"+jsonString.items[i].snippet.title+"</p>")
+  	    yash="#"+id
+  	    $(yash).append("<p>"+jsonString.items[i].snippet.title+"</p>")
   		$(yash).append("<iframe src=http://www.youtube.com/embed/"+jsonString.items[i].id.videoId+"></iframe><br>")
   		
   	}
@@ -92,6 +100,8 @@
     <li><a data-index="1" name="tab" class="Bm" href="#tabs-2">Ali comedy videos</a></li>
     <li><a data-index="2" name="tab" class="Bm" href="#tabs-3">Sapthagiri Comedy videos</a></li>
     <li><a data-index="3" name="tab" class="Bm" href="#tabs-4">Sunil Comedy videos</a></li>
+    <li><a data-index="4" name="tab" class="Bm" href="#tabs-5">MS Narayana Comedy</a></li>
+    <li><a data-index="5" name="tab" class="Bm" href="#tabs-6">Dharamavarm comedy</a></li>
   </ul>
   <div id="tabs-1" style="width: 37em">   
   </div>
@@ -100,6 +110,10 @@
   <div id="tabs-3" style="width: 37em">   
   </div>
   <div id="tabs-4" style="width: 37em">   
+  </div>
+  <div id="tabs-5" style="width: 37em">   
+  </div>
+  <div id="tabs-6" style="width: 37em">   
   </div>
 </div>
  
