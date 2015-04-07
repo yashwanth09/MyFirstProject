@@ -1,0 +1,11 @@
+  <?xml version="1.0" encoding="UTF-8" ?> 
+- <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.yash.comdeypass" version="1.0">
+  <name>Comdey Pass</name> 
+  <description>Enjoy your favourite Comedian videos.</description> 
+  <author mail="karthikdy@gmail.com">Karthik</author> 
+  <preference name="permissions" value="none" /> 
+  <icon src="res/icon/android/drawable-mdpi/icon-mdpi.png" gap:platform="android" gap:qualifier="mdpi" /> 
+  <icon src="res/icon/android/drawable-hdpi/icon-hdpi.png" gap:platform="android" gap:qualifier="hdpi" /> 
+  <icon src="res/icon/android/drawable-xhdpi/icon-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" /> 
+  <icon src="res/icon/android/drawable-xxhdpi/icon-xxdpi.png" gap:platform="android" gap:qualifier="xxhdpi" /> 
+  </widget>
