@@ -16,8 +16,9 @@
     </author>
 
     <preference name="permissions" value="none"/>
-
-
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android:name" value="android.permission.INTERNET" />
+    
     <icon src="res/icon/android/drawable-mdpi/icon-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
     <icon src="res/icon/android/drawable-hdpi/icon-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
     <icon src="res/icon/android/drawable-xhdpi/icon-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
