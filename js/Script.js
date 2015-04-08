@@ -89,7 +89,7 @@
   }
   //xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/videos?id=7lCDEYXw3mM&key=AIzaSyDAqXW4B2w6DuwlvWrXHpotZ3yU6wLC73g&part=snippet,contentDetails,statistics,status",true);
 
-  xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/search?part=snippet&q="+value+" Comedy scenes&key=AIzaSyDAqXW4B2w6DuwlvWrXHpotZ3yU6wLC73g",true);
+  xmlhttp.open("GET","https://www.googleapis.com/youtube/v3/search?part=snippet&q="+value+" Comedy scenes&key=AIzaSyC8Zm-pT2A8G729fjQVuBjiggaLtimaDNE",true);
   xmlhttp.send();
   }
   function parsingJson(jsonString,id)
